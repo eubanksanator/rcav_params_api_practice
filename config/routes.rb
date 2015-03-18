@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  get("/pirate/:input", {:controller => "pages", :action => "pirate"})
-  get("/image/:input", {:controller => "pages", :action => "image"})
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
